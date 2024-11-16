@@ -1,0 +1,73 @@
+.btn-secondary {
+  background-color: white;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-image {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+}
+
+image1 {
+  width: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+  padding: 40px;
+  display: flex;
+}
+
+.row-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  height: 100%;
+
+}
+.checked {
+  color: orange;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a dark background to arrows */
+  border-radius: 50%; /* Optional: Makes them circular */
+}
+.carousel-indicators button {
+  width: 12px; /* Equal width and height for a perfect circle */
+  height: 12px;
+  border-radius: 40%; /* Makes it circular */
+  background-color: #0a0a0a; /* Default dot color */
+  border: none; /* Removes any border */
+  margin: 5px; /* Spacing between dots */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth effects */
+}
+
+.carousel-indicators .active {
+  background-color: #007bff; /* Highlight active dot */
+  transform: scale(1.3); /* Slight enlargement for active dot */
+}
+
+
+.container4 {
+  height: 300px;
+}
